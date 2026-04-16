@@ -1,0 +1,24 @@
+{
+  "name": "sound_face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emotion-engine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-serna0415/wcc2-final-project-sound-face.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/A-serna0415/wcc2-final-project-sound-face/issues"
+  },
+  "homepage": "https://github.com/A-serna0415/wcc2-final-project-sound-face#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
