@@ -1,0 +1,27 @@
+:root {
+  color-scheme: dark; /* Keep the browser chrome aligned with the dark canvas. */
+  --bg-top: #000000; /* Use pure black at the top of the page. */
+  --bg-bottom: #000000; /* Keep the page fully black below as well. */
+}
+
+html,
+body {
+  margin: 0; /* Remove the default page margin so the canvas reaches the edges. */
+  min-height: 100%; /* Let the body fill the viewport height. */
+  overflow: hidden; /* Prevent scrollbars while the canvas is full screen. */
+  background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom)); /* Mirror the sketch palette in the page background. */
+}
+
+body {
+  position: relative; /* Keep the body as a stable positioning context. */
+}
+
+main,
+canvas {
+  display: block; /* Remove inline spacing from the canvas element. */
+}
+
+canvas {
+  width: 100vw; /* Stretch the rendered canvas across the full viewport width. */
+  height: 100vh; /* Stretch the rendered canvas across the full viewport height. */
+}
